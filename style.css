@@ -1,0 +1,116 @@
+body {
+  /* background-color: #C7CAA1; */
+  background: repeating-radial-gradient(circle, transparent, transparent 9.1px, #e0dca8 9.1px, #e0dca8 11.7px), repeating-radial-gradient(circle, transparent, transparent 9.1px, #e0dca8 9.1px, #e0dca8 11.7px), #c6c9a0;
+  background-size: 52px 52px;
+  background-position: 0 0, 26px 26px, 52px 26px;
+  background-color: #c6c9a0;
+}
+
+.card {
+  width: 700px;
+  margin: 20px auto;
+  text-align: center;
+  background: #FEFFF5;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+}
+
+h1 {
+  /* color: #E3A3A0; */
+  color: #F1987A;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  color: #BBD9A0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+h3 {
+  color: #E3A3A0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color:  #C3B48D;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #BECAD5;
+}
+
+.avatar-circle {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 2px, 2px, 3px, #839ca3;
+}
+
+.skill-list li {
+  display: inline;
+  margin: 0 10px;
+  font-size: 20px;
+  color:  #C3B48D;
+}
+.skill-list p {
+  display: inline-block;
+  margin: 0 -12px;
+  font-family: 'Quicksand', sans-serif;
+  padding: 18px;
+  font-size: 20px;
+  color: #C3B48D;
+  font-weight: 400;
+}
+
+.social-list {
+  list-style: none;
+  padding: 0;
+}
+
+.social-list li {
+  display: inline;
+  margin: 0 10px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.social-icon {
+  font-size: 20px;
+  padding: 5px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
